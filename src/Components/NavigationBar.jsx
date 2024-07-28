@@ -15,8 +15,8 @@ export function NavigationBar() {
           <img
               alt=""
               src= {Logo}
-              width="67"
-              height="50"
+              width="70"
+              height="53"
               className="d-inline-block align-top"
           />{' '}
           <span className="brand-text">
@@ -30,10 +30,15 @@ export function NavigationBar() {
             navbarScroll
           >
             <Nav.Link as={Link} to="/products">Products</Nav.Link>
+            <span className="nav-separator">|</span>
             <Nav.Link as={Link} to="/services">Services</Nav.Link>
+            <span className="nav-separator">|</span>
             <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+            <span className="nav-separator">|</span>
             <Nav.Link as={Link} to="/certificates">Certificates</Nav.Link>
+            <span className="nav-separator">|</span>
             <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
+            <span className="nav-separator">|</span>
             <Nav.Link as={Link} to="/contactus">Contact Us</Nav.Link>
           </Nav>
           <Form className="d-flex">

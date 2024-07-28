@@ -3,5 +3,14 @@
     font-family: 'Bebas Neue', sans-serif;
     font-weight: bold;
     color: rgb(12, 150, 12); 
+    margin-right: 10px;
+    margin-left: 10px;
 }
   
+.nav-separator {
+    display: flex;
+    margin: 0 10px;
+    color: #0b0b0b;
+    font-weight: bold;
+    align-items: center;
+}

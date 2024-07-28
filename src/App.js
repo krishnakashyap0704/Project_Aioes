@@ -12,9 +12,9 @@ function App() {
       <NavigationBar/>
         <Routes>
           <Route path='/' element={<Dashboard/>}/>
+          <Route path='/certificates' element={<Certificates/>}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/contactus' element={<ContactUs/>}/>
-          <Route path='/certificates' element={<Certificates/>}/>
         </Routes>
       <Footer/>
     </BrowserRouter>
