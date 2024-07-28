@@ -1,0 +1,98 @@
+.custom-heading {
+    color: limegreen; 
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 3em; 
+}
+
+.pagetitle {
+    font-weight: bold;
+}
+
+.querycol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.contactform{
+    display: block;
+    background-color: white;
+    box-shadow: 1px 1px 3px 2px #ddd;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    max-height: 700px;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.forminput, .textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 8px auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #ddd;
+}
+
+.sentbutton{
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(50, 205, 50);
+    color: #fff;
+    cursor: pointer;
+}
+.sentbutton:hover {
+    background-color: rgb(8, 165, 8); 
+}
+
+.formtitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: limegreen;
+}
+
+.formcontent{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+label{
+    font-size: 14px;
+}
+
+.query{
+    display: block;
+    background-color: white;
+    box-shadow: 1px 1px 3px 2px #ddd;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    height: 700px;
+    padding: 20px 40px;
+    text-align: left;
+    border-radius: 5%;
+}
+
+.querytitle{
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+.querycontent{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+  

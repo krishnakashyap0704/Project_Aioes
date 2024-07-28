@@ -1,35 +1,80 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Placeholder from 'react-bootstrap/Placeholder';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import card1 from './Images/Cards/Card1.jpg';
+import card2 from './Images/Cards/Card1.jpg';
+import card3 from './Images/Cards/Card1.jpg';
+import card4 from './Images/Cards/Card1.jpg';
+
 
 export function MyCards() {
-  return (
-    <div className="d-flex justify-content-around">
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
+    return (
 
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Placeholder as={Card.Title} animation="glow">
-            <Placeholder xs={6} />
-          </Placeholder>
-          <Placeholder as={Card.Text} animation="glow">
-            <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
-            <Placeholder xs={6} /> <Placeholder xs={8} />
-          </Placeholder>
-          <Placeholder.Button variant="primary" xs={6} />
-        </Card.Body>
-      </Card>
-    </div>
-  );
+        <div>
+            
+            <Container>
+                <h4 className="text-center">ESSENTIAL DRIVING TIPS</h4><br />
+                
+                <Row className="justify-content-md-center">
+                    <Col lg={3}>
+                        <Card style={{ width: '18rem', height:'30rem' }}>
+                            <Card.Img  src={card1} width="100" height="180"/>
+                            <Card.Body>
+                                <Card.Title>DON'T SKIP THESE DRIVING TIPS</Card.Title>
+                                <Card.Text>
+                                    10 Practices that make you a safer Driver
+                                </Card.Text>
+                                <p>Although the 2020 lockdown resulted in a 49.47% fall in the number of lives lost in road accidents</p>
+                                {/* <Button variant="primary">More</Button> */}
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col lg={3}>
+                        <Card style={{ width: '18rem', height:'30rem' }}>
+                            <Card.Img src={card2} width="100" height="180"/>
+                            <Card.Body>
+                                <Card.Title>IT'S TIME TO ERASE COMMON DRIVING MISTAKES</Card.Title>
+                                <Card.Text>
+                                    Mistakes that most people make while driving
+                                </Card.Text>
+                                <p>We must admit that each and every one of us is guilty of making errors while driving.</p>
+                                {/* <Button variant="primary">More</Button> */}
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col lg={3}>
+                        <Card style={{ width: '18rem', height:'30rem' }}>
+                        <Card.Img src={card3} width="100" height="180"/>
+                            <Card.Body>
+                                <Card.Title>LEARN HOW TO HOLD A INTERNATIONAL DRIVING LICENSE</Card.Title>
+                                <Card.Text>
+                                    International Driving License: Here's What You Need to Know
+                                </Card.Text>
+                                <p>Whether for travelling and exploring or work purposes, there may be times when you have to get behind the wheel in a foriegn country.</p>
+                                {/* <Button variant="primary">More</Button> */}
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col lg={3}>
+                        <Card style={{ width: '18rem', height:'30rem' }}>
+                        <Card.Img src={card4} width="100" height="180"/>
+                            <Card.Body>
+                                <Card.Title>MOCK LEARNER LICENSE TEST</Card.Title>
+                                <Card.Text>
+                                    Explore the plethora of Questions in Learner License
+                                </Card.Text>
+                                <p>To 'Clear' the learners license test you must know the traffic signs and traffic rules  </p>
+                                {/* <Button variant="primary">More</Button> */}
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+
+        </div>
+
+    );
+
 }

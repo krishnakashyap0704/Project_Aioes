@@ -1,32 +1,64 @@
-import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from './Images/ExampleCarouselImage.jpg';
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import carousel1 from "./Images/Carousels/Carousels1.jpg";
+import carousel2 from "./Images/Carousels/Carousels1.jpg";
+import carousel3 from "./Images/Carousels/Carousels1.jpg";
+import carousel4 from "./Images/Carousels/Carousels1.jpg";
+import carousel5 from "./Images/Carousels/Carousels1.jpg";
+
 
 export function MyCarousel() {
-  return (
-    <Carousel>
-      <Carousel.Item interval={1000}>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
+    return (
+        <div style={{ marginTop: '20px', marginBottom: '20px' }}>
+        <Carousel>
+        <Carousel.Item>
+                <img
+                    className="d-block mx-auto" // Center the image
+                    style={{height : '500px', width :'1200px'}}
+                    src={carousel1}
+                    alt="First slide"
+                />
+
+            </Carousel.Item>
+
+            <Carousel.Item>
+                <img
+                    className="d-block mx-auto" // Center the image
+                    style={{height : '500px', width :'1200px' }}
+                    src={carousel2}
+                    alt="Second slide"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block mx-auto" // Center the image
+                    style={{height : '500px', width :'1200px' }}
+                    src={carousel3}
+                    alt="Third slide"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block mx-auto" // Center the image
+                    style={{height : '500px',width :'1200px' }}
+                    src={carousel4}
+                    alt="Fourth slide"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block mx-auto" // Center the image
+                    style={{height : '500px',width :'1200px' }}
+                    src={carousel5}
+                    alt="Fifth slide"
+                />
+
+            </Carousel.Item>
+        </Carousel>
+        </div>
+    );
 }

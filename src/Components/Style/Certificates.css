@@ -1,0 +1,17 @@
+.certificates-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.certificate-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.certificate-thumbnail {
+    margin: 20px;
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+}
