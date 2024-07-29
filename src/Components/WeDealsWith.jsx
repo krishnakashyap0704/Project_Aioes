@@ -71,7 +71,7 @@ export function WeDealsWith () {
     };
     return (
         <>
-        <h2 className="text-center font-weight-bold mb-1 mt-4 pagetitle">We Deals With</h2>
+        <h2 className="text-center font-weight-bold mb-1 mt-4 pagetitle">Experts in Safety Solutions</h2>
         <div className="we-deals-with">
             <button className="nav-button" onClick={handlePrev}>
                 <i className="fas fa-arrow-left"></i>

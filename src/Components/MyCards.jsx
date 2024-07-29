@@ -17,7 +17,7 @@ export function MyCards() {
             <Container>
                 <h4 className="text-center">ESSENTIAL DRIVING TIPS</h4><br />
                 
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center mb-4">
                     <Col lg={3}>
                         <Card style={{ width: '18rem', height:'30rem' }}>
                             <Card.Img  src={card1} width="100" height="180"/>

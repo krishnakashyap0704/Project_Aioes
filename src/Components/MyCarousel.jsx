@@ -10,7 +10,7 @@ import carousel5 from "./Images/Carousels/Carousels1.jpg";
 
 export function MyCarousel() {
     return (
-        <div style={{ marginTop: '20px', marginBottom: '20px' }}>
+        <div style={{ marginTop: '20px', marginBottom: '40px' }}>
         <Carousel>
         <Carousel.Item>
                 <img

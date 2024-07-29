@@ -1,0 +1,50 @@
+/* OurSatisfiedClient.css */
+
+.pyramid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pyramid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.pyramid-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pyramid-card img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.card-1 { grid-column: 1 / span 1; }
+.card-2 { grid-column: 2 / span 1; }
+.card-3 { grid-column: 3 / span 1; }
+.card-4 { grid-column: 4 / span 1; }
+.card-5 { grid-column: 5 / span 1; }
+.card-6 { grid-column: 6 / span 1; }
+
+.card-7 { grid-column: 2 / span 1; }
+.card-8 { grid-column: 3 / span 1; }
+.card-9 { grid-column: 4 / span 1; }
+.card-10 { grid-column: 5 / span 1; }
+
+.card-11 { grid-column: 3 / span 1; }
+.card-12 { grid-column: 4 / span 1; }
+
+.pagetitle {
+    font-size: 2rem;
+    color: #272424;
+}
